@@ -9,6 +9,8 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -18,11 +20,15 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  font-family: "Arial", sans-serif;
-  background-color: #fff;
+  font-family: 'Red Hat Display', sans-serif;
+  // background-color: #ccc;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8991cf, #7a87bd, #6d7dab, #585f80, #414358, #292933, #111111);
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+ul {
+  list-style: none;
 }
