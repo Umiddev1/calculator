@@ -120,3 +120,4 @@ function result () {
     elInp.value = eval(val)
   }
 }
+// function
